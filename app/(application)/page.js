@@ -1,9 +1,11 @@
 import Link from "next/link";
+import ComponentPage from "../_components/page";
 
 export default function Home() {
   return (
     <div>
       <h1>Welcome to Technical Agency!</h1>
+      <ComponentPage />
       <p>
         <Link href="/blogs">Blogs</Link>
       </p>
