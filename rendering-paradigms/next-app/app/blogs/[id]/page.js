@@ -1,7 +1,9 @@
 import Link from "next/link";
 
-const About = () => {
-  console.log("About Page");
+const BlogDetails = async ({ params }) => {
+  const { id } = await params;
+  console.log(id);
+
   return (
     <>
       <nav>
@@ -11,29 +13,37 @@ const About = () => {
               Home
             </Link>
           </li>
+
           <li>
-            <Link href="/about" className="nav-link active">
+            <Link href="/about" className="nav-link">
               About
             </Link>
           </li>
+
           <li>
             <Link href="/services" className="nav-link">
               Services
             </Link>
           </li>
+
           <li>
-            <Link href="/blogs" className="nav-link">
+            <Link href="/blogs" className="nav-link active">
               Blogs
             </Link>
           </li>
         </ul>
       </nav>
+
       <div>
-        <h1>About Us</h1>
-        <p>We are a company dedicated to providing quality services.</p>
+        <h1>Welcome to Our Blog {id}</h1>
+        <p>This is Blog {id} page.</p>
+
+        <Link href="/blogs" style={{ color: "white" }}>
+          Back to Blogs
+        </Link>
       </div>
     </>
   );
 };
 
-export default About;
+export default BlogDetails;

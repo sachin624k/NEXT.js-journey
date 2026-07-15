@@ -20,6 +20,11 @@ const Services = () => {
               Services
             </Link>
           </li>
+          <li>
+            <Link href="/blogs" className="nav-link">
+              Blogs
+            </Link>
+          </li>
         </ul>
       </nav>
       <div>

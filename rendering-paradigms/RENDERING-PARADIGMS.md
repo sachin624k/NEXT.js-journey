@@ -205,7 +205,7 @@ Everything happens inside the browser.
 
 ## Screenshot
 
-![React Navigation](../images/04-react-navigation.png)
+![React Navigation](./images/04-react-navigation.png)
 
 When you refresh the page,
 
