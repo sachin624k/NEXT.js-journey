@@ -10,17 +10,18 @@ This repository contains my personal notes, code examples, diagrams, and practic
 
 # Notes
 
-| Topic                  | Notes                                                                  |
-| ---------------------- | ---------------------------------------------------------------------- |
-| Dynamic Routing        | [DYNAMIC-ROUTING.md](./notes/DYNAMIC-ROUTING.md)                       |
-| Nested Dynamic Routing | [NESTED-DYNAMIC-ROUTING.md](./notes/NESTED-DYNAMIC-ROUTING.md)         |
-| Catch-all Routes       | [CATCH-ALL-ROUTES.md](./notes/CATCH-ALL-ROUTES.md)                     |
-| Reusable Layouts       | [REUSABLE-LAYOUTS.md](./notes/REUSABLE-LAYOUTS.md)                     |
-| Metadata API           | [METADATA.md](./notes/METADATA.md)                                     |
-| Custom not found page  | [NOT-FOUND.md](./notes/NOT-FOUND.md)                                   |
-| Route Groups           | [ROUTE-GROPUS.md](./notes/ROUTE-GROUPS.md)                             |
-| Private Routes         | [PRIVATE-ROUTE.md](./notes/PRIVATE-ROUTE.md)                           |
-| Rendering Paradigms    | [RENDERING-PARADIGMS.md](./rendering-paradigms/RENDERING-PARADIGMS.md) |
+| Topic                  | Notes                                                                            |
+| ---------------------- | -------------------------------------------------------------------------------- |
+| Dynamic Routing        | [DYNAMIC-ROUTING.md](./notes/DYNAMIC-ROUTING.md)                                 |
+| Nested Dynamic Routing | [NESTED-DYNAMIC-ROUTING.md](./notes/NESTED-DYNAMIC-ROUTING.md)                   |
+| Catch-all Routes       | [CATCH-ALL-ROUTES.md](./notes/CATCH-ALL-ROUTES.md)                               |
+| Reusable Layouts       | [REUSABLE-LAYOUTS.md](./notes/REUSABLE-LAYOUTS.md)                               |
+| Metadata API           | [METADATA.md](./notes/METADATA.md)                                               |
+| Custom not found page  | [NOT-FOUND.md](./notes/NOT-FOUND.md)                                             |
+| Route Groups           | [ROUTE-GROPUS.md](./notes/ROUTE-GROUPS.md)                                       |
+| Private Routes         | [PRIVATE-ROUTE.md](./notes/PRIVATE-ROUTE.md)                                     |
+| Rendering Paradigms    | [RENDERING-PARADIGMS.md](./rendering-paradigms/RENDERING-PARADIGMS.md)           |
+| Static & Dynamic       | [STATIC-DYNAMIC-RENDERING.md](./rendering-paradigms/STATIC-DYNAMIC-RENDERING.md) |
 
 > More topics will be added as I continue my Next.js learning journey.
 
@@ -33,10 +34,10 @@ nextjs-journey/
 ├── app/
 │   ├── (application)/
 │   ├── (marketing)/
+│   ├── blog/
 │   ├── layout.js
+│   ├── page.js
 │   └── not-found.js
-│
-├── images/
 │
 ├── notes/
 │
@@ -44,7 +45,8 @@ nextjs-journey/
 │   ├── images/
 │   ├── next-app/
 │   ├── vite-app/
-│   └── RENDERING-PARADIGMS.md
+│   ├── RENDERING-PARADIGMS.md
+│   └── STATIC-DYNAMIC-RENDERING.md
 │
 ├── public/
 │
