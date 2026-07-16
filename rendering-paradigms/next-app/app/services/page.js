@@ -1,6 +1,14 @@
+import { cookies } from "next/headers";
 import Link from "next/link";
 
-const Services = () => {
+export const dynamic = "force-dynamic";
+
+const Services = async ({ searchParams }) => {
+  // const search = await searchParams;
+  // console.log(search);
+  // const myCookies = await cookies();
+  // console.log(myCookies);
+  console.log("Running Services Component");
   return (
     <>
       <nav>

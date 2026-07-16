@@ -1,8 +1,20 @@
 import Link from "next/link";
 
+export const dynamicParams = false;
+// Incremental Site Regeneration
+// export const revalidate = 5;
+
+// Static Site Generation
+// export async function generateStaticParams() {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/todos");
+//   const data = await response.json();
+//   console.log(data);
+//   return data.map(({ id }) => ({ blogID: `${id}` }));
+// }
+
 const BlogDetails = async ({ params }) => {
-  const { id } = await params;
-  console.log(id);
+  const { blogID } = await params;
+  console.log("blogID: ", blogID);
 
   return (
     <>
@@ -35,8 +47,11 @@ const BlogDetails = async ({ params }) => {
       </nav>
 
       <div>
-        <h1>Welcome to Our Blog {id}</h1>
-        <p>This is Blog {id} page.</p>
+        <h1>Welcome to Our Blog {blogID}</h1>
+        <h2 style={{ textAlign: "center" }}>
+          Date: {new Date().toLocaleString()}
+        </h2>
+        <p>This is Blog {blogID} page.</p>
 
         <Link href="/blogs" style={{ color: "white" }}>
           Back to Blogs
