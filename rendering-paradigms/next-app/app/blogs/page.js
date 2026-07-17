@@ -1,4 +1,11 @@
+"use client";
+
+import Button from "@/components/Button";
+import Comments from "@/components/Comments";
+// import Likes from "@/components/Likes";
+import Views from "@/components/Views";
 import Link from "next/link";
+import { Suspense } from "react";
 
 const Blogs = () => {
   console.log("Blogs Page");
@@ -35,7 +42,7 @@ const Blogs = () => {
       <div>
         <h1>Welcome to Our Blog</h1>
 
-        <ul className="services-list">
+        {/* <ul className="services-list">
           <li>
             <Link href="/blogs/1" style={{ color: "white" }}>
               Blog 1
@@ -53,7 +60,13 @@ const Blogs = () => {
               Blog 3
             </Link>
           </li>
-        </ul>
+        </ul> */}
+        <div className="center">
+          {/* <Likes /> */}
+          <Button />
+          <Comments />
+          <Views />
+        </div>
       </div>
     </>
   );

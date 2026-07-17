@@ -1,3 +1,4 @@
+import Comments from "@/components/Comments";
 import Link from "next/link";
 
 const About = () => {
@@ -31,6 +32,7 @@ const About = () => {
       <div>
         <h1>About Us</h1>
         <p>We are a company dedicated to providing quality services.</p>
+        <Comments />
       </div>
     </>
   );
