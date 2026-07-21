@@ -35,6 +35,11 @@ This repository contains my personal notes, code examples, diagrams, and practic
 | Parallel Data Fetching                 | [PARALLEL-DATA-FETCHING.md](./data-fetching/notes/PARALLEL-DATA-FETCHING.md)                            |
 | Rendering Server Comp. in Client Comp. | [SERVER-COMPONENTS-IN-CLIENT.md](./rendering-server-comp-in-client-comp/SERVER-COMPONENTS-IN-CLIENT.md) |
 | Context API in NEXT.js                 | [CONTEXT-API.md](./context-api/CONTEXT-API.md)                                                          |
+| Error Handling                         | [ERROR-HANDLING.md](./using-error.js-to-handle-errors/notes/ERROR-HANDLING.md)                          |
+| Error Recovery                         | [ERROR-RECOVERY.md](./using-error.js-to-handle-errors/notes/ERROR-RECOVERY.md)                          |
+| Error Handling in Nested Routes        | [NESTED-ERROR-HANDLING.md](./using-error.js-to-handle-errors/notes/NESTED-ERROR-HANDLING.md)            |
+| Handling Client-Side Exceptions        | [CLIENT-SIDE-EXCEPTIONS.md](./using-error.js-to-handle-errors/notes/CLIENT-SIDE-EXCEPTIONS.md)          |
+| Global Error Handling                  | [GLOBAL-ERROR-HANDLING.md](./using-error.js-to-handle-errors/notes/GLOBAL-ERROR-HANDLING.md)            |
 
 > More topics will be added as I continue my Next.js learning journey.
 
@@ -46,32 +51,44 @@ This repository contains my personal notes, code examples, diagrams, and practic
 nextjs-journey/
 │
 ├── app/
-│   ├── (application)/
-│   ├── (marketing)/
-│   ├── blog/
-│   ├── layout.js
-│   ├── page.js
-│   └── not-found.js
-│
 ├── notes/
-│
-├── rendering-paradigms/
-│   ├── images/
-│   ├── next-app/
-│   ├── vite-app/
-│   ├── RENDERING-PARADIGMS.md
-│   ├── STATIC-DYNAMIC-RENDERING.md
-│   ├── STATIC-SITE-GENERATION.md
-│   ├── ISR.md
-│   ├── FORCE-DYNAMIC-RENDERING.md
-│   ├── STREAMING.md
-│   ├── SERVER-VS-CLIENT-COMPONENTS.md
-│   └── HYDRATION.md
-│
+├── images/
 ├── public/
 │
+├── rendering-paradigms/
+│   ├── next-app/
+│   ├── vite-app/
+│   ├── images/
+│   └── notes/
+│
+├── data-fetching/
+│   ├── app/
+│   ├── components/
+│   ├── public/
+│   └── notes/
+│
+├── context-api/
+│   ├── context-api-in-next-app/
+│   ├── context-api-in-vite-app/
+│   └── CONTEXT-API.md
+│
+├── rendering-server-comp-in-client-comp/
+│   ├── app/
+│   ├── components/
+│   ├── images/
+│   ├── public/
+│   └── SERVER-COMPONENTS-IN-CLIENT.md
+│
+├── using-error.js-to-handle-errors/
+│   ├── app/
+│   ├── components/
+│   ├── context/
+│   ├── images/
+│   ├── public/
+│   └── notes/
+│
+├── README.md
 ├── package.json
 ├── next.config.mjs
-├── README.md
 └── .gitignore
 ```
