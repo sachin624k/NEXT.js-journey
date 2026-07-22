@@ -40,6 +40,10 @@ This repository contains my personal notes, code examples, diagrams, and practic
 | Error Handling in Nested Routes        | [NESTED-ERROR-HANDLING.md](./using-error.js-to-handle-errors/notes/NESTED-ERROR-HANDLING.md)            |
 | Handling Client-Side Exceptions        | [CLIENT-SIDE-EXCEPTIONS.md](./using-error.js-to-handle-errors/notes/CLIENT-SIDE-EXCEPTIONS.md)          |
 | Global Error Handling                  | [GLOBAL-ERROR-HANDLING.md](./using-error.js-to-handle-errors/notes/GLOBAL-ERROR-HANDLING.md)            |
+| Adding Styles in Next.js               | [ADDING-STYLES.md](./using-error.js-to-handle-errors/notes/ADDING-STYLES.md)                            |
+| Using CSS Modules                      | [CSS-MODULES.md](./using-error.js-to-handle-errors/notes/CSS-MODULES.md)                                |
+| Using SCSS                             | [SCSS-IN-NEXTJS.md](./using-error.js-to-handle-errors/notes/SCSS-IN-NEXTJS.md)                          |
+| Setting Up Tailwind CSS                | [TAILWIND-CSS-V4-SETUP.md](./using-error.js-to-handle-errors/notes/TAILWIND-CSS-V4-SETUP.md)            |
 
 > More topics will be added as I continue my Next.js learning journey.
 
