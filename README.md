@@ -44,8 +44,9 @@ This repository contains my personal notes, code examples, diagrams, and practic
 | Using CSS Modules                      | [CSS-MODULES.md](./using-error.js-to-handle-errors/notes/CSS-MODULES.md)                                |
 | Using SCSS                             | [SCSS-IN-NEXTJS.md](./using-error.js-to-handle-errors/notes/SCSS-IN-NEXTJS.md)                          |
 | Setting Up Tailwind CSS                | [TAILWIND-CSS-V4-SETUP.md](./using-error.js-to-handle-errors/notes/TAILWIND-CSS-V4-SETUP.md)            |
+| Image Optimization | [IMAGE-OPTIMIZATION.md](./using-error.js-to-handle-errors/notes/IMAGE-OPTIMIZATION.md) |
 
-> More topics will be added as I continue my Next.js learning journey.
+> The `Frontend` section of the **Next.js** Journey concludes here.
 
 ---
 
@@ -64,12 +65,25 @@ nextjs-journey/
 │   ├── vite-app/
 │   ├── images/
 │   └── notes/
+│       ├── RENDERING-PARADIGMS.md
+│       ├── STATIC-DYNAMIC-RENDERING.md
+│       ├── STATIC-SITE-GENERATION.md
+│       ├── ISR.md
+│       ├── FORCE-DYNAMIC-RENDERING.md
+│       ├── STREAMING.md
+│       ├── SERVER-VS-CLIENT-COMPONENTS.md
+│       └── HYDRATION.md
 │
 ├── data-fetching/
 │   ├── app/
 │   ├── components/
 │   ├── public/
 │   └── notes/
+│       ├── CLIENT-DATA-FETCHING.md
+│       ├── SERVER-DATA-FETCHING.md
+│       ├── LOADING-STATE.md
+│       ├── SUSPENSE-LOADING.md
+│       └── PARALLEL-DATA-FETCHING.md
 │
 ├── context-api/
 │   ├── context-api-in-next-app/
@@ -90,9 +104,23 @@ nextjs-journey/
 │   ├── images/
 │   ├── public/
 │   └── notes/
+│       ├── ERROR-HANDLING.md
+│       ├── ERROR-RECOVERY.md
+│       ├── NESTED-ERROR-HANDLING.md
+│       ├── CLIENT-SIDE-EXCEPTIONS.md
+│       ├── GLOBAL-ERROR-HANDLING.md
+│       ├── ADDING-STYLES-IN-NEXTJS.md
+│       ├── CSS-MODULES.md
+│       ├── SCSS-IN-NEXTJS.md
+│       ├── TAILWIND-CSS-V4-SETUP.md
+│       └── IMAGE-OPTIMIZATION.md
 │
 ├── README.md
 ├── package.json
 ├── next.config.mjs
 └── .gitignore
 ```
+
+----
+
+> Covers the majority of **Next.js** App Router `Frontend` concepts learned so far.
